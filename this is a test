@@ -1,11 +1,9 @@
-motor (0,100);
+        motor (0,100);
 motor (3,100);
 msleep (9000);
-
-motor (0,50); // Antuan
-motor (3,100);
-msleep(2000); 
-
-motor (0,100); // Antuan
-motor (3,50); 
-msleep(2000); 
+        motor(0,100); // karissa start
+motor (3,-100);
+msleep (1000);
+        motor(0,-100);
+motor (3,-100);
+msleep (1000);// karissa end

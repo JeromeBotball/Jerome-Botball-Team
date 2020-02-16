@@ -2,5 +2,6 @@ motor (0,100);
 motor (3,100);
 msleep (9000);
 
-cmpc();
-gmpc(3)<1000);//eddy
+motor(0,100);
+motor(0,50);
+msleep(1500);//eddy
